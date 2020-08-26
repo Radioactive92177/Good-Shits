@@ -7,7 +7,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
   xmr.open(
     "GET",
-    `http://api.icndb.com/jokes/random/${number}?firstName=${firstName}&lastName=${lastName}`,
+    `http://api.icndb.com/jokes/random/${number}/limitTo=explicit?firstName=${firstName}&lastName=${lastName}`,
     true
   );
 
