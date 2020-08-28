@@ -9,7 +9,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     .then((response) => response.json())
     .then((data) => {
       let output = "";
-      data.value.forEach(function (joke) {
+      data.value.forEach((joke) => {
         output += `
             <ul>
                 <li><h6 style="font-weight:bolder">${joke.joke}<h6></li>
