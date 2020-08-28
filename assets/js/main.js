@@ -6,10 +6,8 @@ document.querySelector("form").addEventListener("submit", function (e) {
   fetch(
     `https://api.icndb.com/jokes/random/${number}/limitTo=explicit?firstName=${firstName}&lastName=${lastName}`
   )
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
+    .then((response) => response.json())
+    .then((data) => {
       let output = "";
       data.value.forEach(function (joke) {
         output += `
@@ -20,7 +18,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
       });
       document.querySelector("#space").innerHTML = output;
     })
-    .catch(function (err) {
+    .catch((err) => {
       let errHTML = `<h5 style="color:red">${err}<h5>`;
       document.querySelector("#space").innerHTML = errHTML;
     });
