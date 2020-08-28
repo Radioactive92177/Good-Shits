@@ -2,7 +2,7 @@
 
 This is a depiction of the use of Asynchronous JavaScript
 
-> The **Chuck Norris** <a href= "http://www.icndb.com/api/">API</a> has been used in this project
+> The **ICNDB** <a href= "http://www.icndb.com/api/">API</a> has been used in this project
 
 - Click on this <a href= "https://radioactive92177.github.io/Good-Shits/">**link**</a> 
 
