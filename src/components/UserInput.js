@@ -9,7 +9,11 @@ class UserInput extends Component {
   };
   onFormSubmit = (e) => {
     e.preventDefault();
-    this.props.onSubmit([this.state.numberOfJokes,this.state.firstName,this.state.lastName])
+    this.props.onSubmit({
+      numberOfJokes: this.state.numberOfJokes,
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+    });
   };
 
   render() {
@@ -52,7 +56,12 @@ class UserInput extends Component {
             ></Form.Control>
           </Form.Group>
 
-          <Button variant="warning" type="submit" size="lg" style={{width:"100%", fontWeight:'900'}}>
+          <Button
+            variant="warning"
+            type="submit"
+            size="lg"
+            style={{ width: "100%", fontWeight: "900" }}
+          >
             Submit
           </Button>
         </Form>

@@ -6,9 +6,10 @@ import Jokes from "./components/Jokes";
 class App extends Component {
   state = { jokes: [] };
 
-  onFormSubmit = async (dataArray) => {
+  onFormSubmit = async (jokeData) => {
+    console.log(jokeData);
     const { data } = await axios.get(
-      `https://api.icndb.com/jokes/random/${dataArray[0]}/limitTo=explicit?firstName=${dataArray[1]}&lastName=${dataArray[2]}`
+      `https://api.icndb.com/jokes/random/${jokeData["numberOfJokes"]}/limitTo=explicit?firstName=${jokeData["firstName"]}&lastName=${jokeData["lastName"]}`
     );
     this.setState({ jokes: data.value });
   };
