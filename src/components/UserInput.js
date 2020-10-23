@@ -18,7 +18,7 @@ class UserInput extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="my-3">
         <Form onSubmit={this.onFormSubmit}>
           <Form.Group>
             <Form.Label>Number of shits you wanna hear about you :</Form.Label>
