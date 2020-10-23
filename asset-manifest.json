@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Good-Shits/static/css/main.806e3354.chunk.css",
+    "main.js": "/Good-Shits/static/js/main.bf17698c.chunk.js",
+    "main.js.map": "/Good-Shits/static/js/main.bf17698c.chunk.js.map",
+    "runtime-main.js": "/Good-Shits/static/js/runtime-main.6601013c.js",
+    "runtime-main.js.map": "/Good-Shits/static/js/runtime-main.6601013c.js.map",
+    "static/js/2.f5330e80.chunk.js": "/Good-Shits/static/js/2.f5330e80.chunk.js",
+    "static/js/2.f5330e80.chunk.js.map": "/Good-Shits/static/js/2.f5330e80.chunk.js.map",
+    "index.html": "/Good-Shits/index.html",
+    "precache-manifest.1cfe8397a916218b7be50b93a5acff3a.js": "/Good-Shits/precache-manifest.1cfe8397a916218b7be50b93a5acff3a.js",
+    "service-worker.js": "/Good-Shits/service-worker.js",
+    "static/css/main.806e3354.chunk.css.map": "/Good-Shits/static/css/main.806e3354.chunk.css.map",
+    "static/js/2.f5330e80.chunk.js.LICENSE.txt": "/Good-Shits/static/js/2.f5330e80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6601013c.js",
+    "static/js/2.f5330e80.chunk.js",
+    "static/css/main.806e3354.chunk.css",
+    "static/js/main.bf17698c.chunk.js"
+  ]
+}
