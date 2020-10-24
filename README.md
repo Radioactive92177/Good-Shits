@@ -1,14 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Good Shits
 
-## Available Scripts
+This application uses the [**ICNDB** API](http://www.icndb.com/api/) to generate random weird appraisals for you.
 
-In the project directory, you can run:
+[Click me](https://Radioactive92177.github.io/Good-Shits) to try it now!
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+##### To **contribute** or makes changes to the project run the following command below in your **terminal** one by one
 
+```bash
+gh repo clone Radioactive92177/Good-Shits.git
+
+cd Good-Shits/
+
+npm install
+```
+
+##### To **start** the project on your **localhost** run the following command
+
+```bash
+npm start
+```
+
+##### To **deploy** on GitHub Pages run the follwing command
+
+```bash
+npm run deploy
+```
+
+---
