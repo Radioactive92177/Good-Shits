@@ -11,7 +11,7 @@ This application uses the [**ICNDB** API](http://www.icndb.com/api/) to generate
 ##### To **contribute** or makes changes to the project run the following command below in your **terminal** one by one
 
 ```bash
-gh repo clone Radioactive92177/Good-Shits.git || git clone Radioactive92177/Good-Shits.git
+gh repo clone Radioactive92177/Good-Shits || git clone https://github.com/Radioactive92177/Good-Shits.git
 
 cd Good-Shits/
 
