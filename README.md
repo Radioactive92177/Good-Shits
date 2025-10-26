@@ -1,6 +1,6 @@
 # Good Shits
 
-This application uses the [**ICNDB** API](http://www.icndb.com/api/) to generate random weird appraisals for you.
+This application uses the [**JokeAPI**](https://jokeapi.dev/) to generate random jokes with your name in them.
 
 [Click me](https://Radioactive92177.github.io/Good-Shits) to try it now!
 
