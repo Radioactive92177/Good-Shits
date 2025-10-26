@@ -6,7 +6,7 @@ const Jokes = ({ jokes }) => {
   return (
     <Container className="my-5">
       {jokes.map((joke) => (
-        <Joke id={joke.id} joke={joke.joke} />
+        <Joke key={joke.id} id={joke.id} joke={joke.joke} />
       ))}
     </Container>
   );
