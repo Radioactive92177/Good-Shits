@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-##### To **deploy** on GitHub Pages run the follwing command
+##### To **deploy** on GitHub Pages run the following command
 
 ```bash
 npm run deploy
